@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "wikidocs"
 name = "WikiDocs"
-description.en = "Databaseless markdown flat-file wiki engine "
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Databaseless markdown flat-file wiki engine"
+description.fr = "Moteur wiki à fichiers plats sans base de données"
 
 version = "1.0.81~ynh1"
 
@@ -51,9 +51,6 @@ ram.runtime = "50M"
     choices = [ "en", "de", "es", "fa", "fr", "it", "nl", "pt", "ru", "zh-hans", "zh-hant" ]
     default = "fr"
 
-    #[install.admin]
-    #type = "user"
-
 [resources]
 
     [resources.sources]
@@ -73,4 +70,3 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "php8.3-fpm, php8.3-dom, php8.3-mbstring, php8.3-xml"
-
