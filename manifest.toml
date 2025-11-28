@@ -51,8 +51,8 @@ ram.runtime = "50M"
     choices = [ "en", "de", "es", "fa", "fr", "it", "nl", "pt", "ru", "zh-hans", "zh-hant" ]
     default = "fr"
 
-    [install.admin]
-    type = "user"
+    #[install.admin]
+    #type = "user"
 
 [resources]
 
@@ -72,5 +72,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm, php8.3-dom, php8.3-mbstring, php8.3-session, php8.3-xml"
+    packages = "php8.3-fpm, php8.3-dom, php8.3-mbstring, php8.3-xml"
 
